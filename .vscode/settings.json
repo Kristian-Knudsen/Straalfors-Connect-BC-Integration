@@ -1,0 +1,4 @@
+{
+    "al.namespaceTemplate": "AS.Nsc.$(parentFolder)",
+    "al.useVsCodeAuthentication": false
+}

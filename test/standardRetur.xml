@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StandardRetur xmlns="urn:oio:sagdok:2.0.0">
+    <StatusKode>1212</StatusKode>
+    <FejlbeskedTekst>AfsendelseIdentifikator allerede modtaget</FejlbeskedTekst>
+</StandardRetur>
