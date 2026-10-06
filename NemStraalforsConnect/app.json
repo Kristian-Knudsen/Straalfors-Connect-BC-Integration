@@ -1,0 +1,35 @@
+{
+  "id": "ebf97941-460f-4fd3-a028-3e2b89725b6d",
+  "name": "NemStrålforsConnect",
+  "publisher": "Aurora Software",
+  "version": "1.0.0.0",
+  "brief": "A easy solution for sending documents to the public danish mail service, using Postnord Strålfors Connect",
+  "description": "A easy solution for sending documents to the public danish mail service, using Postnord Strålfors Connect",
+  "privacyStatement": "https://google.com",
+  "EULA": "https://google.com",
+  "help": "https://google.com",
+  "logo": "./assets/logo.png",
+  "contextSensitiveHelpUrl": "https://google.com",
+  "url": "https://google.com",
+  "applicationInsightsConnectionString": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "27.0.46760.0",
+  "application": "27.5.46862.47835",
+  "idRanges": [
+    {
+      "from": 1000000,
+      "to": 1002000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.1",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}

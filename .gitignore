@@ -1,2 +1,5 @@
 .snapshots
 .alpackages
+*.app
+*rad.json
+*launch.json

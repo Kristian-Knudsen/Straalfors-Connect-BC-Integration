@@ -1,0 +1,16 @@
+{
+    "name": "Nsc Ruleset",
+    "description": "Nsc rules to ensure proper code quality",
+    "rules": [
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "Not needed atm"
+        },
+        {
+            "id": "AA0248",
+            "action": "None",
+            "justification": "Makes clean more ugly atm"
+        }
+    ]
+}

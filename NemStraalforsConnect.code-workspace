@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "NemStraalforsConnect",
+      "path": "NemStraalforsConnect"
+    },
+    {
+      "name": "NemStraalforsConnect.Tests",
+      "path": "NemStraalforsConnect.Tests"
+    },
+  ],
+  "settings": {}
+}

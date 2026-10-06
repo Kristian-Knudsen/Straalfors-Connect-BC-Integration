@@ -1,6 +1,6 @@
 namespace Nsc.Persistance;
 
-table 100000 NscSetup
+table 1000000 NscSetup
 {
     DataClassification = CustomerContent;
 
@@ -12,7 +12,7 @@ table 100000 NscSetup
             AutoIncrement = true;
         }
 
-        field(2; SenderSystem; Text[10])
+        field(2; SenderSystemId; Text[10])
         {
             DataClassification = CustomerContent;
         }
@@ -27,17 +27,22 @@ table 100000 NscSetup
             DataClassification = CustomerContent;
         }
 
-        field(5; IncludeInvoices; Boolean)
+        field(5; CertificateKey; Blob)
         {
             DataClassification = CustomerContent;
         }
 
-        field(6; IncludeCreditMemos; Boolean)
+        field(6; IncludeInvoices; Boolean)
         {
             DataClassification = CustomerContent;
         }
 
-        field(7; IncludeReminders; Boolean)
+        field(7; IncludeCreditMemos; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
+
+        field(8; IncludeReminders; Boolean)
         {
             DataClassification = CustomerContent;
         }
@@ -50,4 +55,14 @@ table 100000 NscSetup
             Clustered = true;
         }
     }
+
+    procedure ReplaceCertificate()
+    begin
+
+    end;
+
+    procedure ReplaceCertificateKey()
+    begin
+
+    end;
 }

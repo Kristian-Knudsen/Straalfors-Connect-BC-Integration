@@ -1,6 +1,6 @@
 namespace Nsc.Core.Enums;
 
-enum 100000 NscDeliveryStatus
+enum 1000000 NscDeliveryStatus
 {
     Extensible = true;
 

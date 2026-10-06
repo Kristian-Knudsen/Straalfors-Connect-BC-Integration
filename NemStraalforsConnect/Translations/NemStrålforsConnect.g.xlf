@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="NemStrålforsConnect">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3708484699 - Field 1846567327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field Certificate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 1214107942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CertificateKey</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field CertificateKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 1302407291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DeliveryTypeId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field DeliveryTypeId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 2643236700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IncludeCreditMemos</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field IncludeCreditMemos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 3495759418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IncludeInvoices</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field IncludeInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 1206462187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IncludeReminders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field IncludeReminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 2333076789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PrimaryKey</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field PrimaryKey - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3708484699 - Field 210730157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SenderSystemId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table NscSetup - Field SenderSystemId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 1302407291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery type Id provided by Strålfors Connect, through the self service portal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control DeliveryTypeId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 1302407291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Type Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control DeliveryTypeId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 210730157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sender System Id provided by Strålfors Connect, through the self service portal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control SenderSystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 210730157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending system id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control SenderSystemId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 2643236700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Should sales credit memos be picked up and sent to Strålfors Connect?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeCreditMemos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 2643236700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include creditmemos to send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeCreditMemos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 3495759418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Should sales invoices be picked up and sent to Strålfors Connect?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeInvoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 3495759418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include invoices to send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeInvoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 1206462187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Should reminders be picked up and sent to Strålfors Connect?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeReminders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Control 1206462187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include reminders to send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Control IncludeReminders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Action 2940606339 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replaces the current certificate - Using this feature might stop the integration from working</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Action ReplaceCertificate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3708484699 - Action 2940606339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replace certificate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page NscSetup - Action ReplaceCertificate - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

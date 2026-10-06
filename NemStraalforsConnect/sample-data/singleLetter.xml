@@ -1,0 +1,16 @@
+<ForsendelseI xmlns="urn:oio:fjernprint:3.0.0" xmlns:dkal="urn:oio:dkal:1.0.0">
+    <AfsendelseIdentifikator>{{AfsendelsesId}}</AfsendelseIdentifikator>
+    <ForsendelseTypeIdentifikator>{{ForsendelsestypeId}}</ForsendelseTypeIdentifikator>
+    <ForsendelseModtager>
+        <dkal:AfsendelseModtager>
+            <CPRnummerIdentifikator xmlns="urn:oio:adir:dagpenge:2009.07.01">0102030000</CPRnummerIdentifikator>
+        </dkal:AfsendelseModtager>
+    </ForsendelseModtager>
+    <dkal:FilformatNavn>PDF</dkal:FilformatNavn>
+    <dkal:MeddelelseIndholdData>{{SampleLetterPdfBase64}}</dkal:MeddelelseIndholdData>
+    <DokumentParametre />
+    <KanalUafhaengigeParametreI>
+        <BrugerNavn>Username</BrugerNavn>
+        <KanalKode>Digital Post</KanalKode>
+    </KanalUafhaengigeParametreI>
+</ForsendelseI>

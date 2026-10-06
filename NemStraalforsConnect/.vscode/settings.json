@@ -1,0 +1,11 @@
+{
+    "al.namespaceTemplate": "AS.Nsc.$(parentFolder)",
+    "al.useVsCodeAuthentication": false,
+    "al.codeAnalyzers": [
+        // "${AppSourceCop}",
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "al.enableCodeAnalysis": true,
+    "al.ruleSetPath": "./.vscode/Nsc-rules.ruleset.json"
+}
