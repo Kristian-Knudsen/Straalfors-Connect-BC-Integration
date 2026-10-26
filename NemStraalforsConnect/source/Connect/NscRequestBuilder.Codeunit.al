@@ -1,24 +1,25 @@
 namespace Nsc.Connect;
+
 using Nsc.Core.DataExchangeFormats.Xml;
 
-codeunit 1000002 NscConnectRequestBuilder
+codeunit 1000002 "Nsc Request Builder"
 {
     var
-        XmlBuilder: Codeunit XmlBuilder;
+        XmlBuilder: Codeunit "Xml Builder";
+        NamespaceMapper: Codeunit "Nsc Xml Namespace Mapper";
 
-    procedure PrepareDocument(): XmlDocument
+    procedure PrepareDocumentAndReturnRoot(): XmlElement
     var
         Document: XmlDocument;
         DocumentRoot: XmlElement;
     begin
-        Document := XmlBuilder.CreateDocument('ForsendelseI');
+        Document := XmlBuilder.CreateDocument('ForsendelseI', 'urn:oio:fjernprint:3.0.0');
 
         Document.GetRoot(DocumentRoot);
 
-        XmlBuilder.AddAttribute(DocumentRoot, 'xmlns', 'urn:oio:fjernprint:3.0.0');
-        XmlBuilder.AddAttribute(DocumentRoot, 'xmlns:dkal', 'urn:oio:dkal:1.0.0');
+        XmlBuilder.AddNamespace(DocumentRoot, Enum::"Nsc Xml Namespaces"::dkal);
 
-        exit(Document);
+        exit(DocumentRoot);
     end;
 
     procedure AddAfsendelseId(AfsendelseId: Text; var Parent: XmlElement)
@@ -37,19 +38,19 @@ codeunit 1000002 NscConnectRequestBuilder
         InnerGroupRoot: XmlElement;
     begin
         GroupRoot := XmlBuilder.AddElementGroup('ForsendelseModtager', Parent);
-        InnerGroupRoot := XmlBuilder.AddElementGroup('AfsendelseModtager', GroupRoot, 'dkal');
+        InnerGroupRoot := XmlBuilder.AddElementGroup('AfsendelseModtager', GroupRoot, NamespaceMapper.GetNamespaceUri(Enum::"Nsc Xml Namespaces"::dkal));
 
-        XmlBuilder.AddElementWithValue('CPRnummerIdentifikator', CprNumber, InnerGroupRoot);
+        XmlBuilder.AddElementWithValue('CPRnummerIdentifikator', CprNumber, InnerGroupRoot, 'urn:oio:adir:dagpenge:2009.07.01');
     end;
 
     procedure AddFileFormatNamePdf(var Parent: XmlElement)
     begin
-        XmlBuilder.AddElementWithValue('FilformatNavn', 'PDF', Parent, 'dkal');
+        XmlBuilder.AddElementWithValue('FilformatNavn', 'PDF', Parent, NamespaceMapper.GetNamespaceUri(Enum::"Nsc Xml Namespaces"::dkal));
     end;
 
     procedure AddForsendelseIndhold(Base64Indhold: Text; var Parent: XmlElement)
     begin
-        XmlBuilder.AddElementWithValue('MeddelelseIndholdData', Base64Indhold, Parent, 'dkal');
+        XmlBuilder.AddElementWithValue('MeddelelseIndholdData', Base64Indhold, Parent, NamespaceMapper.GetNamespaceUri(Enum::"Nsc Xml Namespaces"::dkal));
     end;
 
     procedure AddDokumentParameters(var Parent: XmlElement)

@@ -1,6 +1,6 @@
 namespace Nsc.Core.Interfaces;
 
-interface INscDeliveryProvider
+interface "INsc Delivery Provider"
 {
     procedure Send();
     procedure GetStatus();

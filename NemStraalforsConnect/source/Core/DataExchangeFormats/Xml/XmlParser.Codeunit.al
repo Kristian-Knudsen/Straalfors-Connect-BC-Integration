@@ -1,6 +1,6 @@
 namespace Nsc.Core.DataExchangeFormats.Xml;
 
-codeunit 1000000 XmlParser
+codeunit 1000000 "Xml Parser"
 {
     procedure ParseXml(XmlText: Text): XmlDocument
     var

@@ -1,12 +1,12 @@
 namespace Nsc.UI;
 using Nsc.Persistance;
 
-page 1000000 NscSetup
+page 1000000 "Nsc Setup"
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = NscSetup;
+    SourceTable = "Nsc Setup";
 
     layout
     {
@@ -37,6 +37,32 @@ page 1000000 NscSetup
                 }
             }
 
+            group(DisplaySettings)
+            {
+                Caption = 'Display settings for deliveries page';
+
+                field(DisplayCustomerName; Rec.DisplayCustomerName)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Display customer name';
+                    ToolTip = 'If toggled, displays the customer name of the delivery on the deliveries page';
+                }
+
+                field(DisplayCustomerAddress; Rec.DisplayCustomerAddress)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Display customer address';
+                    ToolTip = 'If toggled, displays the customer address of the delivery on the deliveries page';
+                }
+
+                field(DisplayDocumentDueDate; Rec.DisplayDocumentDueDate)
+                {
+                    ApplicationArea = All;
+                    Caption = 'Display document due date';
+                    ToolTip = 'If toggled, displays the due date of the document of the delivery on the deliveries page';
+                }
+            }
+
             group(AdminstrationSettings)
             {
                 Caption = 'Administration settings';
@@ -59,6 +85,13 @@ page 1000000 NscSetup
 
     actions
     {
+        area(Promoted)
+        {
+            actionref(ReplaceCertificatePromoted; ReplaceCertificate) { }
+
+            actionref(ReplaceCerificateKeyPromoted; ReplaceCertificateKey) { }
+        }
+
         area(Processing)
         {
             action(ReplaceCertificate)
@@ -103,6 +136,18 @@ page 1000000 NscSetup
 
                     Rec.Modify(true);
                 end;
+            }
+        }
+
+        area(Navigation)
+        {
+            action(ViewNscProfile)
+            {
+                ApplicationArea = All;
+                Caption = 'View Nsc profile';
+                Image = LinkWeb;
+                ToolTip = 'View the Nsc profile settings payment information';
+                RunObject = Page "Nsc Profile";
             }
         }
     }

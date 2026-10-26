@@ -1,14 +1,15 @@
 namespace Nsc.Core.PermissionSets;
 
-using Nsc.Core.DataExchangeFormats.Xml;
 using Nsc.Persistance;
 using Nsc.UI;
 
-permissionset 1000000 NscAdmin
+permissionset 1000002 "Nsc Admin"
 {
     Assignable = true;
-    Permissions = tabledata NscSetup = RIMD,
-        table NscSetup = X,
-        codeunit XmlParser = X,
-        page NscSetup = X;
+
+    IncludedPermissionSets = "Nsc Base Usage";
+
+    Permissions = tabledata "Nsc Setup" = RIMD,
+        table "Nsc Setup" = X,
+        page "Nsc Setup" = X;
 }

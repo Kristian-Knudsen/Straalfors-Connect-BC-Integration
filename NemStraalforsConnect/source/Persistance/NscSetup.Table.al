@@ -1,12 +1,12 @@
 namespace Nsc.Persistance;
 
-table 1000000 NscSetup
+table 1000000 "Nsc Setup"
 {
     DataClassification = CustomerContent;
 
     fields
     {
-        field(1; PrimaryKey; Integer)
+        field(1; SetupId; Integer)
         {
             DataClassification = SystemMetadata;
             AutoIncrement = true;
@@ -46,11 +46,26 @@ table 1000000 NscSetup
         {
             DataClassification = CustomerContent;
         }
+
+        field(9; DisplayCustomerName; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
+
+        field(10; DisplayCustomerAddress; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
+
+        field(11; DisplayDocumentDueDate; Boolean)
+        {
+            DataClassification = CustomerContent;
+        }
     }
 
     keys
     {
-        key(Key1; PrimaryKey)
+        key(PrimaryKey; SetupId)
         {
             Clustered = true;
         }
@@ -58,11 +73,11 @@ table 1000000 NscSetup
 
     procedure ReplaceCertificate()
     begin
-
+        // TODO: Implement this when a cert is aquired
     end;
 
     procedure ReplaceCertificateKey()
     begin
-
+        // TODO: Implement this when a cert is aquired
     end;
 }

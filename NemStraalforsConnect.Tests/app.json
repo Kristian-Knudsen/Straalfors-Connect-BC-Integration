@@ -1,0 +1,39 @@
+{
+  "id": "bb3c530d-4bc4-4258-a28b-067bd230b0de",
+  "name": "NemStraalforsConnect.Tests",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id": "ebf97941-460f-4fd3-a028-3e2b89725b6d",
+    "name": "NemStrålforsConnect",
+    "publisher": "Aurora Software",
+    "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+ "idRanges": [
+    {
+      "from": 1002000,
+      "to": 1003999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
