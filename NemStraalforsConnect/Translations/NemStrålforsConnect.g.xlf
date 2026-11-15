@@ -83,6 +83,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Sending Profile - EnumValue Email - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1722377345 - Action 1135168719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Assign or change the customer sending profile.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Action SetSendingProfile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1722377345 - Action 1135168719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Set sending profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Action SetSendingProfile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1722377345 - Action 1135168719 - Method 1377591017 - NamedType 1005598135" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1722377345">
+          <source>Save the customer before assigning a sending profile.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Action SetSendingProfile - Method OnAction - NamedType SaveCustomerFirstLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1722377345 - Control 143734707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Nem Strålfors Connect</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -97,6 +112,11 @@
           <source>Exclude from receiving</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Control ExcludeFromReceiving - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1722377345 - Control 2073170383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Sending profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Control Nsc Customer Sending Profile - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 48411045 - Field 715747794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>ExcludeFromReceiving</source>
@@ -413,10 +433,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Profile - Control CompanyName - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2358845858 - Control 3105167785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Prefered sending profile for the customer</source>
+        <trans-unit id="Page 1388340303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer sending profile</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Control Sending Profile - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1388340303 - Control 2996373905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sending profile for the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Card - Control SendingProfile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1388340303 - Control 2996373905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Card - Control SendingProfile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Method 753561857 - NamedType 1005598135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save the customer before assigning a sending profile.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Method EditProfile - NamedType SaveCustomerFirstLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Control 2996373905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the customer sending profile. Select it to change the profile.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Control SendingProfile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Control 2996373905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Control SendingProfile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Action 1135168719 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assign or change the customer sending profile.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Action SetSendingProfile - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Action 1135168719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set sending profile</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Action SetSendingProfile - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2024169171 - Control 3862326622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Administration settings</source>

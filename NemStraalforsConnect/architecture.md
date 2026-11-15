@@ -66,7 +66,7 @@ Every table also has Business Central system fields, including `SystemId`. A cus
 | --- | --- | --- |
 | `Nsc Setup` | `SetupId` (auto-increment integer) | Document inclusion/display flags, sender system ID, delivery type ID, and certificate/private-key BLOBs. Setup page creates a record when none exists; consumers use `FindFirst`, rather than an enforced singleton key. |
 | `Nsc Profile` | `ProfileId` (integer) | Trial/Standard account type; company name and company ID are FlowFields. Separate from the AL role profile also named `Nsc Profile`. No account-verification service is implemented. |
-| `Nsc Customer Sending Profile` | `Customer No.` | One sending preference per customer; currently only Email is declared. The customer-card part inserts a missing row when opened with a customer filter. |
+| `Nsc Customer Sending Profile` | `Customer No.` | One sending preference per customer; currently only Email is declared. The customer-card FactBox shows the current choice and opens a card that creates or updates the row when a user selects a sending profile. |
 | `Nsc Delivery Header` | `Document Type`, `Document No.` | One header per source document/type, plus customer number. Submission references use the header's `SystemId`. |
 | `Nsc Delivery Submission` | `Sending Id` (GUID) | Header reference, status, channel, and recipient snapshot: name, address, postal code, country code, and email. No PDF/payload field or recipient city field exists. |
 | `Nsc Delivery Submission Error` | `Error No.` (integer) | Error message and submission GUID; has a secondary index on `Delivery Submission Id`. |
