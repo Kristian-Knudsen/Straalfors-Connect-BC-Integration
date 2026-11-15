@@ -8,6 +8,7 @@ enum 1000000 "Nsc Delivery Status"
     {
         Caption = 'Ready for sending';
     }
+
     value(1; FailedValidation)
     {
         Caption = 'Failed validation';
@@ -23,23 +24,8 @@ enum 1000000 "Nsc Delivery Status"
         Caption = 'Sent';
     }
 
-    value(4; ValidationFailedByPostnord)
+    value(4; NoStatus)
     {
-        Caption = 'Validation failed by Postnord';
-    }
-
-    value(5; AcceptedByPostnord)
-    {
-        Caption = 'Accepted by Postnord';
-    }
-
-    value(6; ReceivedByEnduser)
-    {
-        Caption = 'Enduser has received the document';
-    }
-
-    value(7; FetchingStatus)
-    {
-        Caption = 'Fetching status';
+        Caption = 'Awaiting status';
     }
 }

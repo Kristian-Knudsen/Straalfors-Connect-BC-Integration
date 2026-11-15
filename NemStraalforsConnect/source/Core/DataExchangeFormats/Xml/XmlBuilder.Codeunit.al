@@ -1,5 +1,4 @@
 namespace Nsc.Core.DataExchangeFormats.Xml;
-using Nsc.Connect;
 
 codeunit 1000001 "Xml Builder"
 {
@@ -89,12 +88,5 @@ codeunit 1000001 "Xml Builder"
 
         XmlAttr := XmlAttribute.CreateNamespaceDeclaration(Prefix, NamespaceUri);
         Element.Add(XmlAttr);
-    end;
-
-    procedure AddNamespace(var Element: XmlElement; Namespace: Enum "Nsc Xml Namespaces")
-    var
-        NamespaceMapper: Codeunit "Nsc Xml Namespace Mapper";
-    begin
-        AddNamespace(Element, Format(Namespace), NamespaceMapper.GetNamespaceUri(Namespace));
     end;
 }

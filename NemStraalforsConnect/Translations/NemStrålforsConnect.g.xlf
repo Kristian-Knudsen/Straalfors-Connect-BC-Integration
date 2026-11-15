@@ -3,6 +3,26 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="NemStrålforsConnect">
     <body>
       <group id="body">
+        <trans-unit id="Enum 1957576954 - EnumValue 506853655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1957576954">
+          <source>Accepted by Postnord</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nsc Connect Delivery Status - EnumValue AcceptedByPostnord - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1957576954 - EnumValue 52055412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1957576954">
+          <source>Fetching status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nsc Connect Delivery Status - EnumValue FetchingStatus - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1957576954 - EnumValue 3445718702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1957576954">
+          <source>Enduser has received the document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nsc Connect Delivery Status - EnumValue ReceivedByEnduser - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1957576954 - EnumValue 2097751800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1957576954">
+          <source>Validation failed by Postnord</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension Nsc Connect Delivery Status - EnumValue ValidationFailedByPostnord - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 447059833 - EnumValue 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -13,45 +33,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Account Type - EnumValue Trial - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 1957576954 - EnumValue 506853655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Accepted by Postnord</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue AcceptedByPostnord - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Enum 1957576954 - EnumValue 3330088036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Failed validation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue FailedValidation - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 1957576954 - EnumValue 52055412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Fetching status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue FetchingStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1957576954 - EnumValue 401752101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Marked for sending</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue MarkedForSending - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 1957576954 - EnumValue 3120010367 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Awaiting status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue NoStatus - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 1957576954 - EnumValue 2881151008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ready for sending</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue ReadyForSending - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 1957576954 - EnumValue 3445718702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enduser has received the document</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue ReceivedByEnduser - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1957576954 - EnumValue 2561328176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sent</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue Sent - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 1957576954 - EnumValue 2097751800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Validation failed by Postnord</source>
+        <trans-unit id="Enum 4139023358 - EnumValue 1285973296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Email</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Status - EnumValue ValidationFailedByPostnord - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Delivery Type - EnumValue Email - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3637260155 - EnumValue 3052399569 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit memo</source>
@@ -68,6 +78,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Document Type - EnumValue Reminder - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 3827912827 - EnumValue 1285973296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prefer email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Nsc Sending Profile - EnumValue Email - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1722377345 - Control 143734707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Nem Strålfors Connect</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -83,60 +98,155 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Customer Card Ext - Control ExcludeFromReceiving - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1960994097 - Control 348808229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>If this is checked the document is to be found in a Nsc Delivery page</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Posted Sales Invoice Ext - Control HandledByNsc - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1960994097 - Control 348808229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
-          <source>Is handled by Nsc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Nsc Posted Sales Invoice Ext - Control HandledByNsc - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 48411045 - Field 715747794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>ExcludeFromReceiving</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Nsc Customer Ext - Field ExcludeFromReceiving - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 550877883 - Field 348808229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
-          <source>HandledByNsc</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Nsc Sales Inv Header Ext - Field HandledByNsc - Property Caption</note>
+        <trans-unit id="Codeunit 161985574 - Method 2397027037 - NamedType 3579159299" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer for invoice with no: %1, is not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Invoice No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc CreditMemo Manager - Method GetCustomerNo - NamedType NoCustomerFoundLbl</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 4053839158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CustomerAddress</source>
+        <trans-unit id="Codeunit 1467414094 - Method 221769430 - NamedType 327741515" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing Nsc setup. Please set it up</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field CustomerAddress - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Deliveries Logic - Method CreateNewDeliveriesAndSubmissions - NamedType MissingSetupLbl</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 1881986821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>CustomerName</source>
+        <trans-unit id="Codeunit 4083894094 - Method 2948266943 - NamedType 3825381566" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing customer sending profile for customer number: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Delivery Submission Mgt. - Method GetCustomerSendingProfile - NamedType MissingCustomerSendingProfileSetupLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 746229798 - Method 2370285365 - NamedType 2014991037" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be mapped as it is not supported</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Provided document type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Document Manager - Method MapDocumentTypeToManagerType - NamedType InvalidDocumentTypeForMappingErrorLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2406206848 - Method 2397027037 - NamedType 3579159299" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer for invoice with no: %1, is not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Invoice No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Invoice Manager - Method GetCustomerNo - NamedType NoCustomerFoundLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 819224221 - Method 2397027037 - NamedType 3579159299" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer for invoice with no: %1, is not found</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Invoice No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Reminder Manager - Method GetCustomerNo - NamedType NoCustomerFoundLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3981641001 - Method 3748950825 - NamedType 1146202369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No mapping found for Customer Sending Profile: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 =&gt; Customer sending profile</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Sending Profile Mgt - Method MapCustomerPreferedSendingProfileToDeliveryType - NamedType InvalidMapLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 2073170383 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field CustomerName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Customer Sending Profile - Field Customer No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 477726531 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeliveryId</source>
+        <trans-unit id="Table 2073170383 - Field 3105167785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending Profile</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field DeliveryId - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Customer Sending Profile - Field Sending Profile - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 4084554116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DeliveryStatus</source>
+        <trans-unit id="Table 204970271 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field DeliveryStatus - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Header - Field Customer No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 204970271 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field Document No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Header - Field Document No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 2836986713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DocumentDueDate</source>
+        <trans-unit id="Table 204970271 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field DocumentDueDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Header - Field Document Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 754133632 - Field 4237283545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>DocumentType</source>
+        <trans-unit id="Table 29317026 - Method 1592579543 - NamedType 2407721387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The delivery submission to log message for was not found.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Deliveries - Field DocumentType - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Log - Method AddLog - NamedType SubmissionNotFoundLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 29317026 - Field 488586781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Status At Change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Log - Field Delivery Status At Change - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 29317026 - Field 1318331281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Submission Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Log - Field Delivery Submission Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 29317026 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 29317026 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Log - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 4258867132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Header Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Delivery Header Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 775476300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Delivery Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 3123194696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Delivery Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 3237582343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Recipient Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 2703905546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Country Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Recipient Country Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 2978992649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Email</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Recipient Email - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 2889102768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Recipient Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 3753497005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Post-Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Recipient Post-Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3334645838 - Field 1240252747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission - Field Sending Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1413887358 - Field 931256843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Submission Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission Error - Field Delivery Submission Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1413887358 - Field 2852966117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission Error - Field Error Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1413887358 - Field 2558383841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Delivery Submission Error - Field Error No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 460271671 - Field 1534374427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>AccountType</source>
@@ -213,35 +323,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Nsc Setup - Field SetupId - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1467414094 - Method 1955246656 - NamedType 327741515" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Missing Nsc setup. Please set it up</source>
+        <trans-unit id="Page 3017703871 - Control 1407268071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nsc shortcuts</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Nsc Deliveries Logic - Method FetchNewDocuments - NamedType MissingSetupLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Role Center Controls - Control Nsc Shortcuts - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 754133632 - Method 716454850 - NamedType 327741515" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Missing Nsc setup. Please set it up</source>
+        <trans-unit id="Page 3017703871 - Control 2082874784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Displays all Nsc Deliveries</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Method OnOpenPage - NamedType MissingSetupLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Role Center Controls - Control Nsc deliveries - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 754133632 - Control 4053839158 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer address of the underlying document of the delivery</source>
+        <trans-unit id="Page 3017703871 - Control 2082874784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nsc Deliveries</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control CustomerAddress - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Role Center Controls - Control Nsc deliveries - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 754133632 - Control 4053839158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer address</source>
+        <trans-unit id="Profile 460271671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nsc Admin</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control CustomerAddress - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Nsc Profile - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 754133632 - Control 1881986821 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer name of the underlying document of the delivery</source>
+        <trans-unit id="Profile 460271671 - Property 4111922599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nsc Profile Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control CustomerName - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 754133632 - Control 1881986821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control CustomerName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile Nsc Profile - Property ProfileDescription</note>
         </trans-unit>
         <trans-unit id="Page 754133632 - Control 477726531 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Id of the delivery</source>
@@ -253,30 +358,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control DeliveryId - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 754133632 - Control 4084554116 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Delivery status of the delivery</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control DeliveryStatus - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 754133632 - Control 4084554116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Delivery status</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control DeliveryStatus - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 754133632 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No. of the underlying document of the delivery</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control Document No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 754133632 - Control 2836986713 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due date of the underlying document of the delivery</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control DocumentDueDate - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 754133632 - Control 2836986713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document due date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Control DocumentDueDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 754133632 - Control 4237283545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document type of the underlying document of the delivery</source>
@@ -298,6 +383,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Deliveries - Action FetchNewDocuments - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3718037354 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No. of the recipient</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Delivery Card - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3718037354 - Control 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document type of the underlying document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Delivery Card - Control Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 977601090 - Control 775476300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Delivery Submissions Part - Control Delivery Status - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 460271671 - Control 1534374427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Current status of the account</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -312,6 +412,11 @@
           <source>Company name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Profile - Control CompanyName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2358845858 - Control 3105167785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prefered sending profile for the customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Nsc Sending Profile Part - Control Sending Profile - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2024169171 - Control 3862326622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Administration settings</source>

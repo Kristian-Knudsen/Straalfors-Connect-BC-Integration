@@ -1,7 +1,7 @@
 namespace Nsc.Core.PermissionSets;
 
-using Nsc.Persistance;
-using Nsc.UI;
+using Nsc.Core.Persistance;
+using Nsc.Core.UI;
 
 permissionset 1000002 "Nsc Admin"
 {
